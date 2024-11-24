@@ -1,0 +1,53 @@
+#dc-event-calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.fc-event {
+    cursor: pointer;
+}
+
+.dc-event-calendar {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.dc-event-calendar .fc-toolbar {
+    margin-bottom: 1em;
+}
+
+.dc-event-calendar .fc-toolbar h2 {
+    font-size: 1.5em;
+}
+
+.dc-event-calendar .fc-view-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.dc-event-calendar .fc-event {
+    background-color: #3788d8;
+    border: 1px solid #3788d8;
+    color: #fff;
+}
+
+.dc-event-calendar .fc-event:hover {
+    background-color: #2c6aa0;
+}
+
+.dc-event-calendar .fc-day-grid-event .fc-content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+    .dc-event-calendar .fc-toolbar {
+        flex-direction: column;
+    }
+    
+    .dc-event-calendar .fc-toolbar .fc-left,
+    .dc-event-calendar .fc-toolbar .fc-right {
+        margin-bottom: 10px;
+    }
+}

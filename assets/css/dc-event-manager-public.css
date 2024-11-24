@@ -1,0 +1,50 @@
+/* Public-facing styles */
+.dc-event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dc-event-list li {
+    margin-bottom: 10px;
+}
+
+.dc-event-details {
+    margin-bottom: 20px;
+}
+
+.dc-event-ar-view {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dc-event-carbon-footprint {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dc-event-user-badges ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dc-event-user-badges li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.dc-event-check-in-form {
+    margin-top: 20px;
+}
+
+.dc-event-calendar-integration button {
+    margin-right: 10px;
+}

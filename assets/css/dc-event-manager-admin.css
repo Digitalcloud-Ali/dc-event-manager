@@ -1,0 +1,86 @@
+/* Admin styles */
+.dc-event-admin-wrap {
+    margin: 20px 0;
+}
+
+.dc-event-admin-wrap label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.dc-event-admin-wrap input[type="text"],
+.dc-event-admin-wrap input[type="number"],
+.dc-event-admin-wrap textarea {
+    width: 100%;
+    max-width: 400px;
+}
+
+.dc-event-admin-wrap .dc-event-datepicker,
+.dc-event-admin-wrap .dc-event-timepicker {
+    width: 150px;
+}
+
+#ar-model-preview {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.dc-event-admin-wrap .button-secondary {
+    margin-top: 10px;
+}
+
+.dc-event-analytics-chart {
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.dc-event-badge-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dc-event-badge-list li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}
+
+/* ... existing styles ... */
+
+.dc-event-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dc-event-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 20px;
+}
+
+.dc-event-card h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.dc-event-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dc-event-card li {
+    margin-bottom: 10px;
+}
+
+.dc-event-card .button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,122 @@
+DC Event Manager Plugin Structure and Features
+
+File Structure:
+dc-event-manager/
+├── admin/
+│   ├── class-dc-event-admin.php
+│   ├── class-dc-event-dashboard-widget.php
+│   └── class-dc-event-log-viewer.php
+├── assets/
+│   ├── css/
+│   │   ├── dc-event-calendar.css
+│   │   ├── dc-event-manager-admin.css
+│   │   └── dc-event-manager-public.css
+│   └── js/
+│       ├── dc-event-admin-maps.js
+│       ├── dc-event-analytics.js
+│       ├── dc-event-ar.js
+│       ├── dc-event-calendar.js
+│       ├── dc-event-manager-admin.js
+│       └── dc-event-manager-public.js
+├── docs/
+│   ├── analytics-dashboard.md
+│   └── user-guide.md
+├── includes/
+│   ├── class-dc-event-activator.php
+│   ├── class-dc-event-analytics.php
+│   ├── class-dc-event-api.php
+│   ├── class-dc-event-ar-integration.php
+│   ├── class-dc-event-attendees.php
+│   ├── class-dc-event-cache.php
+│   ├── class-dc-event-calendar-integration.php
+│   ├── class-dc-event-carbon-tracker.php
+│   ├── class-dc-event-check-in.php
+│   ├── class-dc-event-exception.php
+│   ├── class-dc-event-frontend-submission.php
+│   ├── class-dc-event-gamification.php
+│   ├── class-dc-event-google-maps.php
+│   ├── class-dc-event-i18n.php
+│   ├── class-dc-event-loader.php
+│   ├── class-dc-event-logger.php
+│   ├── class-dc-event-manager.php
+│   ├── class-dc-event-networking.php
+│   ├── class-dc-event-notifications.php
+│   ├── class-dc-event-recurrence.php
+│   ├── class-dc-event-shortcodes.php
+│   ├── class-dc-event-ticketing.php
+│   ├── class-dc-event-widgets.php
+│   ├── config.php
+│   └── dc-event-manager-i18n.php
+├── languages/
+├── logs/
+├── tests/
+│   ├── test-dc-event-features.php
+│   └── test-dc-event-manager.php
+├── CHANGELOG.md
+├── composer.json
+├── dc-event-manager.php
+├── readme.txt
+└── uninstall.php
+
+Key Features Implemented:
+1. Event Creation and Management
+2. Interactive Event Calendar
+3. AR Integration for Events
+4. Carbon Footprint Tracking
+5. Event Gamification
+6. Analytics Dashboard
+7. REST API for External Integrations
+8. Event Ticketing System
+9. Recurring Events Support
+10. Check-in System for Events
+11. Google Maps Integration
+12. Event Export (Google Calendar and iCal)
+
+Important Functions and Classes:
+- DC_Event_Manager: Main plugin class
+- DC_Event_Activator: Handles plugin activation and deactivation
+- DC_Event_AR_Integration: Manages AR features
+- DC_Event_Carbon_Tracker: Calculates and tracks event carbon footprint
+- DC_Event_Gamification: Implements gamification features
+- DC_Event_Analytics: Provides event performance analytics
+- DC_Event_API: Implements REST API endpoints
+- DC_Event_Ticketing: Manages event ticketing system
+- DC_Event_Recurrence: Handles recurring events
+- DC_Event_Check_In: Implements event check-in system
+- DC_Event_Google_Maps: Integrates Google Maps for event locations
+- DC_Event_Calendar_Integration: Manages calendar export features
+
+Key Shortcodes:
+- [dc_event_calendar]: Displays interactive event calendar
+- [dc_event_list]: Shows list of upcoming events
+- [dc_event_details]: Displays event details
+- [dc_event_submission_form]: Renders front-end event submission form
+- [dc_event_ar_view]: Shows AR view button for events
+- [dc_event_carbon_footprint]: Displays event carbon footprint
+- [dc_event_user_badges]: Shows user's earned badges
+- [dc_event_tickets]: Displays ticket purchase form
+- [dc_event_map]: Shows Google Map for event location
+
+Internationalization:
+- Implemented using WordPress i18n functions
+- Language files to be stored in /languages/ directory
+
+Testing:
+- Unit tests implemented in test-dc-event-features.php and test-dc-event-manager.php
+
+Future Improvements:
+- Enhance error handling and logging
+- Implement more unit tests for edge cases
+- Optimize database queries and caching
+- Improve frontend user experience
+- Expand API functionality
+
+Version: 1.0.1
+Last Updated: 2023-06-15
+
+New Features in 1.0.1:
+- Google Maps integration
+- Event export functionality
+- Enhanced error logging and log viewer
+- Dashboard widget for quick event management
+- Tabbed interface for event creation/editing

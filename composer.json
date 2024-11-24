@@ -1,0 +1,18 @@
+{
+    "name": "digitalcloud/dc-event-manager",
+    "description": "A comprehensive WordPress event management plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Syed Ali",
+            "email": "syed@digitalcloud.no"
+        }
+    ]
+}
